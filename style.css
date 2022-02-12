@@ -6,11 +6,15 @@ section{
   height: 500px;
   padding-bottom: 100px;
 }
-h1{
-  font-family: 'Poppins', sans-serif;
+
+#stay {
+  font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 50px;
     
 }
+/* .first-section{
+display: flex;
+} */
 .half-width{
   width: 40%;
   
@@ -19,9 +23,13 @@ h1{
   padding-left: 2%;
 }
 h1{
+
   font-size: 50px;
 }
-h2{font-size: 50px;
+h2{
+  font-size: 40px;
+  padding-top:0px;
+  margin-top:1px;
 }
 h1 span{
   color: rgb(255, 51, 0);
@@ -35,76 +43,86 @@ h1 span{
 }
 .anchor-button{
   text-decoration: none;
-  background: linear-gradient(45deg, lightsalmon, tomato);
+  background: linear-gradient(45deg, rgb(166, 236, 3), rgb(141, 24, 3));
   padding: 10px 40px;
   border-radius: 5px;
-  color: white;
-  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
 }
 p{
   color: rgb(3, 0, 7);
   font-size: 20px;
 }
  
-.welcome-area h1{
+.First-contaniter h1{
   color: orange;
 }
 
-.welcome-area div{
-  box-shadow: 5px 7px 40px rgb(255, 254, 254);
-  margin-top: 5%;
-  padding-top: 2%;
-  
-  
- 
+.title-Part{
+  font-size: 30px;
+  border-left: 5px solid red
 }
+.title-Part h1,h2{
+  margin-left: 10px;
+}
+/*  
 #welcome{
   border-left: 6px solid;
   border-image: linear-gradient(180deg, rgb(248, 3, 3), tomato);
-  border-image-slice: 1;
+  border-image-slice: 3;
   height:55%;
    
-}
+} */
  
 #name{
  text-align: center;
 }
-.box-area  div{
 
-  height: 25%;
- 
+
+.box-area{
+display:flex;
+justify-content: center;
+align-items: center;
+width: fit-content;
+height: fit-content;
 }
-.box-area {
-  padding-left:10%;
-  margin-left: 20%;
- 
-  
-   
-    
+.box-area h3{
+  font-size: 20px;
+}
+.card img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
 }
 
 #mission {
+  text-align: left;
   background-color: rgb(175, 255, 175);
   height: 80%;
-  width: 15%;
-  padding-left:5%;
-  margin-left: 2%;
+  width:  20%;
+  padding-left: 30px;
+  margin-left: 20px;
   border-radius: 20px;
 }
 #vission {
-  background-color: rgb(92, 155, 92);
+  text-align: left;
+  background-color: rgb(175, 255, 175);
   height: 80%;
-  width: 15%;
-  padding-left:5%;
-  margin-left: 2%;
+  width:  20%;
+  padding-left: 30px;
+  margin-left: 20px;
   border-radius: 20px;
 }
 #goal {
-  background-color: rgb(89, 114, 89);
+  text-align: left;
+  background-color: rgb(175, 255, 175);
   height: 80%;
-  width: 15%;
-  padding-left:5%;
-  margin-left: 2%;border-radius: 20px;
+  width:  20%;
+  padding-left: 30px;
+  margin-left: 20px;
+  border-radius: 20px;
 }
 .card {
    
@@ -113,21 +131,21 @@ p{
   margin-left: 5%;
   padding-left: 5%;
 }
- #missions img{
-   width: 20%;
- } 
- .card img{
+ /* .box-area img{
+   height:30%;
    width: 50%;
- }
+}  */
+
+
 
 .banner-bg{
   background-image: url("image/developer-portfolio/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
-h3{
+/* h3{
   text-align: center;
-}
+} */
 footer{
   color: rgb(255, 255, 255);
   text-align: center;
